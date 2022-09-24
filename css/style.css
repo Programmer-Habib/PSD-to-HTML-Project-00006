@@ -96,6 +96,7 @@ a, .subHeading{
     width: 100%;
     margin: 0 auto;
     padding: 6rem 0;
+    overflow: hidden;
 }
 @media screen and (min-width: 1600px){
     .row{
