@@ -1,0 +1,126 @@
+/* iPad responsiv */
+@media screen and (min-width:769px) and (max-width:992px) {
+    .row{
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+    .mobile-menu{
+        display: block;
+    }
+    .nav{
+        display: none;
+    }
+}
+/* for tablet */
+@media screen and (min-width:601px) and (max-width:768px) {
+    .row{
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+    h1{
+        font-size: 8rem;
+    }
+    h2{
+        font-size: 5.5rem;
+    }
+    h3 {
+        font-size: 3rem;
+    }
+    h4 {
+        font-size: 2rem;
+    }
+    a {
+        font-size: 2rem;
+    }
+    .subHeading {
+        font-size: 2.2rem;
+    }
+    .mobile-menu{
+        display: block;
+    }
+    .nav{
+        display: none;
+    }
+    .statistic-cercle {
+        width: 16rem;
+        height: 16rem;
+    }
+    .globalBtn {
+        font-size: 1.8rem;
+    }
+    .contact-form input[type="email"] {
+        width: 35rem;
+    }
+}
+/* for mobile */
+@media screen and (min-width:50px) and (max-width:600px) {
+    .row{
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+    h1{
+        font-size: 6rem;
+    }
+    h2{
+        font-size: 4.5rem;
+    }
+    h3 {
+        font-size: 2.5rem;
+    }
+    h4 {
+        font-size: 1.8rem;
+    }
+    a {
+        font-size: 1.8rem;
+    }
+    .subHeading {
+        font-size: 2rem;
+    }
+    .mobile-menu{
+        display: block;
+    }
+    .nav{
+        display: none;
+    }
+    .stikey {
+        padding: 0;
+    }
+    .logo {
+        margin-top: 0;
+    }
+    .statistic-cercle {
+        -ms-flex-preferred-size: 65%;
+        flex-basis: 65%;
+        margin-left: 0;
+    }
+    .statistic-body {
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+    }
+    .about-text {
+        width: 35rem;
+    }
+    .contact-section .row{
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+    .contact-form {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        -webkit-box-shadow: none;
+        box-shadow: none;
+    }
+    .contact-form input[type="email"] {
+        -webkit-box-shadow: 0px 2px 100px rgba(0,0,0,.2);
+        box-shadow: 0px 2px 100px rgba(0,0,0,.2);
+    }
+    .contact-form button{
+        margin-top: 2rem;
+        -webkit-box-shadow: 0px 2px 100px rgba(0,0,0,.2);
+        box-shadow: 0px 2px 100px rgba(0,0,0,.2);
+    }
+}

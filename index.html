@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Best app for your
+    modern lifestyle. Increase productivity with a simple to-do app. app for
+    managing your personal budgets."><!-- discribtion -->
+    <meta name="name" content="applab.com"><!-- author -->
+    <meta name="keywords" content="HabibFood, habibfood, Habib Food, habib food, HABIB FOOD"><!-- keywords -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"><!-- internet explor support -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HabibFood</title>
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon"><!-- favicon icon -->
+    <!-- google font -->
+    <link href="https://fonts.googleapis.com/css2?family=Grand+Hotel&family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="vendors/css/normalize.css"><!-- separet mostly usable css -->
+    <link rel="stylesheet" href="vendors/css/gird.css"><!-- separet gird css -->
+    <link rel="stylesheet" href="css/style.min.css"><!-- main css file -->
+    <link rel="stylesheet" href="css/responsive.min.css"><!-- separet responsiv css -->
+</head>
+<body>
+    <!-- =========================
+        HEADER SECTION
+    ========================= -->
+    <header class="header-section section" id="home">
+        <div class="row">
+            <div class="menu-area col-flex">
+                <div class="mobile-menu">
+                    <span class="open-btn" onclick="openNav()">&#9776;</span>
+                </div>
+                <div class="logo col-3" onclick="closeNav()">
+                    <a href="index.html"><img src="img/RH_FOOD.png" alt="RH_FOOD"></a>
+                </div>
+                <nav class="nav col-9">
+                    <ul class="col-flex col-11">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#product">Product</a></li>
+                        <li><a href="#promo">Promo</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                    <div class="search col-1">
+                        <form action="php" class="search-form">
+                            <input type="text" name="Search" placeholder="Search">
+                        </form>
+                    </div>
+                </nav>
+                <div class="sidenav" id="sidenave">
+                    <a href="#0" onclick="closeNav()" class="close-btn">&times;</a>
+                        <a href="#home">Home</a>
+                        <a href="#product">Product</a>
+                        <a href="#promo">Promo</a>
+                        <a href="#about">About</a>
+                        <a href="#contact">Contact</a>
+                </div>
+            </div>
+            <div class="banner-area col-flex" onclick="closeNav()">
+                <div class="banner-emty col-6"></div>
+                <div class="banner-text col-6">
+                    <h1>Title Here</h1>
+                    <p class="subHeading banner-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto adipisci nostrum dolores alias.</p>
+                    <button class="globalBtn banner-btn">Order Now</button>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- =========================
+        SERVICE SECTION
+    ========================= -->
+    <section class="service-section section js-stikey-menu" id="product" onclick="closeNav()">
+        <div class="row">
+            <div class="service-heading">
+                <h2>Best Seller</h2>
+                <p class="subHeading service-body">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Unde aperiam nesciunt inventore quisquam error.</p>
+            </div>
+            <div class="service-sellers col-flex">
+                <div class="service-seller col-4">
+                    <img src="img/service_1.jpg" alt="service_1">
+                    <h3 class="service-seller-title">Title Here</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+                <div class="service-seller col-4">
+                    <img src="img/service_2.jpg" alt="service_1">
+                    <h3 class="service-seller-title">Title Here</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+                <div class="service-seller col-4">
+                    <img src="img/service_3.jpg" alt="service_1">
+                    <h3 class="service-seller-title">Title Here</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- =========================
+        PROMO SECTION
+    ========================= -->
+    <section class="promo-section section" id="promo" onclick="closeNav()">
+        <div class="oriental-section">
+            <div class="row col-flex align">
+                <div class="oriental-img col-6">
+                    <img src="img/order_img.jpg" alt="order_img.jpg" width="500">
+                </div>
+                <div class="oriental-text col-6">
+                    <h2 class="oriental-text-title">Oriental Taste</h2>
+                    <p class="subHeading oriental-text-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil esse maiores totam consequatur dolorem.</p>
+                    <button class="globalBtn">Order Now</button>
+                </div>
+            </div>
+        </div>
+        <div class="statistic-section">
+            <div class="row">
+                <div class="statistic-heading">
+                    <h2 class="statistic-heading-title">Statistics</h2>
+                    <p class="subHeading statistic-heading-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil esse maiores totam consequatur dolorem.</p>
+                </div>
+                <div class="statistic-body col-flex">
+                    <div class="statistic-cercle col-3">
+                        <div>
+                            <h3 class="statistic-cercle-count">123</h3>
+                            <h4 class="statistic-cercle-title">Outlets</h4>
+                        </div>
+                    </div>
+                    <div class="statistic-cercle col-3">
+                        <div>
+                            <h3 class="statistic-cercle-count">123</h3>
+                            <h4 class="statistic-cercle-title">Outlets</h4>
+                        </div>
+                    </div>
+                    <div class="statistic-cercle col-3">
+                        <div>
+                            <h3 class="statistic-cercle-count">123</h3>
+                            <h4 class="statistic-cercle-title">Outlets</h4>
+                        </div>
+                    </div>
+                    <div class="statistic-cercle col-3">
+                        <div>
+                            <h3 class="statistic-cercle-count">123</h3>
+                            <h4 class="statistic-cercle-title">Outlets</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="chicken-section">
+            <div class="row col-flex">
+                <div class="chicken-text col-6">
+                    <h2 class="chicken-text-title">Chicken Grill</h2>
+                    <p class="subHeading chicken-text-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil esse maiores totam consequatur dolorem.</p>
+                    <button class="globalBtn">Order Now</button>
+                </div>
+                <div class="chicken-img col-6">
+                    <img src="img/order_img_2.jpg" alt="order_img_2" width="500">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- =========================
+        ABOUT SECTION
+    ========================= -->
+    <section class="about-section section" id="about" onclick="closeNav()">
+        <div class="row">
+            <div class="about-text">
+                <p class="subHeading">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint dicta nisi quas nulla impedit.</p>
+                <h2 class="about-text-title">Lenora Fields</h2>
+            </div>
+        </div>
+    </section>
+    <!-- =========================
+        CONTACT SECTION
+    ========================= -->
+    <section class="contact-section section" id="contact" onclick="closeNav()">
+        <div class="row">
+            <h2>Subscribe</h2>
+            <p class="subHeading contact-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil esse maiores totam consequatur dolorem.</p>
+            <form class="contact-form" action="https://formspree.io/f/meqdonjg" method="post">
+                <input type="email" name="Email" id="email" placeholder="Your Email" required>
+                <button class="globalBtn">Subscribe</button>
+            </form>
+            <img src="img/contact_shap.png" alt="footer_shap" width="1000">
+        </div>
+    </section>
+    <!-- =========================
+        FOOTER SECTION
+    ========================= -->
+    <footer class="footer-section section" onclick="closeNav()">
+        <div class="row col-grid">
+            <div class="footer-title-here">
+                <h4 class="footer-title-here-title">Title Here</h4>
+                <p class="footer-title-here-body">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Assumenda eaque quod illum nesciunt minima, quas suscipit sint molestiae beatae rem fugiat ea!</p>
+                <div class="footer-social">
+                    <a href="#0"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#0"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#0"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="#0"><i class="fa-brands fa-whatsapp"></i></a>
+                </div>
+            </div>
+            <div class="link">
+                <h4 class="footer-title-here-title">About</h4>
+                <a href="#0">History</a><br>
+                <a href="#0">Our Team</a><br>
+                <a href="#0">Brand Guidelines</a><br>
+                <a href="#0">Terms & Condition</a><br>
+                <a href="#0">Privacy Policy</a>
+            </div>
+            <div class="link">
+                <h4 class="footer-title-here-title">Services</h4>
+                <a href="#0">How to Order</a><br>
+                <a href="#0">Our Product</a><br>
+                <a href="#0">Order Status</a><br>
+                <a href="#0">Promo</a><br>
+                <a href="#0">Payment Method</a>
+            </div>
+            <div class="link">
+                <h4 class="footer-title-here-title">Other</h4>
+                <a href="#0">Contact Us</a><br>
+                <a href="#0">Help</a><br>
+                <a href="#0">Privacy</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- =========================
+        ALL SCRIPT FILE START
+    ========================= -->
+    <script src="https://kit.fontawesome.com/fde7226776.js" crossorigin="anonymous"></script><!-- font awesome -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script><!-- JQuery google hosted -->
+    <script src="vendors/js/html5shiv.min.js"></script><!-- basic HTML5 styling for Internet Explorer 6-9, Safari 4.x (and iPhone 3.x), and Firefox 3.x. -->
+    <script src="vendors/js/respond.min.js"></script><!-- for min/max-width CSS3 Media Queries (for IE 6-8, and more) -->
+    <script src="vendors/js/selectivizr.min.js"></script><!-- selectivizar enternet expolore 6-8 version psudu class working file -->
+    <script src="vendors/js/waypoints.min.js"></script><!-- Stikey menu -->
+    <script src="js/script.min.js"></script><!-- main js file -->
+    <!-- ALL SCRIPT FILE END -->
+</body>
+</html>
